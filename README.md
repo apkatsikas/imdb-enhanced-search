@@ -25,7 +25,7 @@ The following environment variables can be used to overwrite some hard-coded val
 * `IMDB_DATA_BASE_URL` - defaults to `https://datasets.imdbws.com`
 * `IMDB_TITLE_URL` - defaults to `https://www.imdb.com/title`
 
-`IMDB_SEARCH_WORKERS` defaults to `runtime.NumCPU()`
+`IMDB_SEARCH_WORKERS` defaults to `runtime.NumCPU()` - but can be overridden with an integer.
 
 ## Future improvements
 
